@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Home from './Home/Home';
-import Heroes from './Heroes/Heroes'
-import About from './About/About'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import Navbar from './shared/Navbar/Navbar';
+import Home from './components/Home/Home';
+import Heroes from './components/Heroes/Heroes'
+import About from './components/About/About'
+import Navbar from './components/shared/Navbar/Navbar';
 
 function App() {
   return (
