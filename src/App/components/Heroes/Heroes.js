@@ -28,7 +28,10 @@ export class Heroes extends Component {
                     {/* INICIO TARJETA DE LOS HÉROES */}
                     {heroes.map((heroe, i) => (
                         <TarjetaHeroe
+                            key={i}
+                            id={i}
                             heroe={heroe}
+                            router={this.props}
                         />
                     )
                     )}
